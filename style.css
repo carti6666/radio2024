@@ -1,0 +1,122 @@
+* {
+    font-family: "Space Mono", monospace;
+}
+
+.navbar-expand-md {
+    margin-left: 1rem;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 01rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+    .navbar-toggler {
+        transition: none;
+    }
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-expand-md .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-expand-md .navbar-collapse {
+        display: flex !important;
+        width: 100%;
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: none;
+    }
+
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link.active {
+    color: black;
+}
+.nav-link.disabled {
+    color: #d9d9d9;
+    pointer-events: none;
+    cursor: default;
+}
+
+.nav-link {
+    display: block;
+    padding: 0;
+    color: #585858;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link2 {
+    display: block;
+    color: #2b00ff;
+    text-decoration: none;
+    font-size: 0.6rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.postbox {
+    margin: 1rem;
+}
+
+.postbox-text {
+    width: 660px;
+}
+
+button {
+    margin-right: 1rem;
+}
